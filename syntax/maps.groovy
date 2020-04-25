@@ -15,12 +15,12 @@ assert colors instanceof java.util.LinkedHashMap
 
 assert colors.unknown == null
 
-numbers = [1: 'one', 2: 'two']
+def numbers = [1: 'one', 2: 'two']
 
 assert numbers[1] == 'one'
 
 def key = 'name'
-person = [key: 'Guillaume']
+def person = [key: 'Guillaume']
 
 assert !person.containsKey('name')
 assert person.containsKey('key')

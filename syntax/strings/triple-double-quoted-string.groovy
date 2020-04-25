@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-name = 'Groovy'
+def name = 'Groovy'
 def template = """
     Dear Mr ${name},
 
